@@ -14,7 +14,7 @@ install() {
   local install_path=$3
   local bin_install_path="$install_path/bin"
   local download_url="https://github.com/ahmetb/kubectx/raw/v${version}/kubectx"
-  local download_url_nx="https://github.com/ahmetb/kubectx/raw/v${version}/kubenx"
+  local download_url_ns="https://github.com/ahmetb/kubectx/raw/v${version}/kubenx"
 
   mkdir -p "${bin_install_path}"
 
